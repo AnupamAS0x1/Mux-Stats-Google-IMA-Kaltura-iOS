@@ -1,0 +1,11 @@
+use_frameworks!
+
+target 'Mux-Stats-Google-IMA-Kaltura-iOS_Example' do
+  pod 'Mux-Stats-Google-IMA-Kaltura-iOS', :path => '../'
+
+  target 'Mux-Stats-Google-IMA-Kaltura-iOS_Tests' do
+    inherit! :search_paths
+
+    
+  end
+end
